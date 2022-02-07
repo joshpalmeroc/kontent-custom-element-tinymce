@@ -1,6 +1,6 @@
 # TinyMCE Editor Custom Element for Kentico Kontent
 
-This is a [custom element](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrating-your-own-content-editing-features) for [Kentico Kontent](https://kontent.ai) that allows users to edit rich text using the TinyMCE editor.
+This is a [custom element](https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extensions) for [Kentico Kontent](https://kontent.ai) that allows users to edit rich text using the TinyMCE editor.
 
 ![Screenshot of custom element](TinyMCE.png)
 
@@ -14,7 +14,7 @@ This is a [custom element](https://docs.kontent.ai/tutorials/develop-apps/integr
     1. Add your secure ppublic host to the allowed hosts
     1. Replace the script on [index.html line 9](index.html) with the one TinyMCE provides you
     1. Redeploy the code to your secure public host
-1. Follow the instructions in the [Kentico Kontent documentation](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrating-your-own-content-editing-features#a-3--displaying-a-custom-element-in-kentico-kontent) to add the element to a content model.
+1. Follow the instructions in the [custom elements documentation](https://kontent.ai/learn/tutorials/develop-apps/integrate/content-editing-extensions#a-displaying-your-custom-editor-in-kontent) to add the element to a content model.
     * The `Hosted code URL` is where you deployed to in step 1
 
 ## Deploying
